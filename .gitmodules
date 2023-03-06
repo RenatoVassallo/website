@@ -1,4 +1,0 @@
-[submodule "renatowebsite/public"]
-	path = renatowebsite/public
-	url = https://github.com/RenatoVassallo/renatovassallo.github.io.git
-	branch = main
