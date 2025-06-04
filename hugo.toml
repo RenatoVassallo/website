@@ -4,21 +4,17 @@ title = "Renato Vassallo"
 theme = "PaperMod"
 
 [params]
+  math = true
   env = "production"
   ShowReadingTime = true
 
   [params.profileMode]
   enabled = true
   title = "Renato Vassallo"
-  subtitle = """I am an economist and data scientist at the Institute for Economic Analysis (IAE-CSIC), working at the intersection of Economics and AI. My research focuses on Machine Learning, Natural Language Processing, Causal Inference and the development of data-driven tools for economic analysis and policy."""
+  subtitle = """I’m an economist and data scientist at the Institute for Economic Analysis (IAE-CSIC), working at the intersection of AI and economics. My research combines machine learning, natural language processing, and causal inference to build data-driven tools for economic insight and policy design."""
     imageUrl = "images/photo_bse.png"  # relative to /static
     imageTitle = "Renato Vassallo"
     imageWidth = 150
-
-    [[params.profileMode.buttons]]
-      name = "Google Scholar"
-      url = "https://scholar.google.com"
-      icon = "graduation-cap"
 
     [[params.profileMode.buttons]]
       name = "GitHub"
@@ -29,11 +25,6 @@ theme = "PaperMod"
       name = "LinkedIn"
       url = "https://linkedin.com/in/renatovassallo"
       icon = "linkedin"
-
-    [[params.profileMode.buttons]]
-      name = "CV"
-      url = "pdf/cv_jun25.pdf"
-      icon = "file"
 
 
 [menu]
@@ -50,12 +41,17 @@ theme = "PaperMod"
     weight = 2
 
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
+    name = "CV"
+    url = "pdf/cv_jun25.pdf"
     weight = 3
 
   [[menu.main]]
     name = "Software"
     url = "/software/"
     weight = 4
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 5
