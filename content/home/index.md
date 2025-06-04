@@ -14,5 +14,5 @@ My work bridges economics, statistical modeling, and AI — with a strong focus 
 ### 📌 Recent Updates
 
 - 🤖 Released a pre-publication version of [FewShotX](https://github.com/RenatoVassallo/FewShotX), a Python library (available as `.whl`) for zero- and few-shot learning with real-world applications in text classification and forecasting.  
-- ✍️ Published a new [blog post](../posts/turning-text-into-data/) on transforming unstructured text into structured data using dictionary, zero-shot, and few-shot techniques.  
+- ✍️ Published a new [blog post](../posts/text_as_data/) on transforming unstructured text into structured data using dictionary, zero-shot, and few-shot techniques.  
 - 🎓 Instructor for the course *Nowcasting and Forecasting with Text as Data* at the Barcelona School of Economics. See course materials [here](https://github.com/RenatoVassallo/BSE-ForecastNLP).

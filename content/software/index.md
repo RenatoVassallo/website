@@ -4,7 +4,7 @@ date: 2025-06-02
 ---
 
 ## 🧠 FewShotX  
-*A Python package for zero-shot and few-shot learning using transformer models*  
+*A Python package for zero-shot and few-shot learning using transformer models*.  
 Designed for fast experimentation in low-data or domain-specific NLP tasks.  
 📘 [Tutorial](https://github.com/RenatoVassallo/FewShotX/blob/main/tutorials/ZeroShot_Tutorial.ipynb)  
 💻 [GitHub](https://github.com/RenatoVassallo/FewShotX)  
