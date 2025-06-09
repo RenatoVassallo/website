@@ -23,9 +23,11 @@ Dictionary methods have been widely used in economics to transform textual data 
 
 These methods remain popular due to their transparency and simplicity, and continue to appear in high-impact economic research such as:
 
-- Azqueta-Gavaldón (2017), *Economic Modelling*: *Developing news-based sentiment indicators using a dictionary approach*
-- Barrero et al. (2020), *NBER WP*: *COVID-19 Is Also a Reallocation Shock*
-- Timoshenko (2022), *Journal of Monetary Economics*: *News and uncertainty shocks*
+1. Ehrmann & Talmi (2020). Starting from a blank page? Semantic similarity in central bank communication and market volatility. *Journal of Monetary Economics*.
+
+2. Rice & Zorn (2021). Corpus-based dictionaries for sentiment analysis of specialized vocabularies. *Political Science Research and Methods*.
+
+3. Parle (2022). The financial market impact of ECB monetary policy press conferences—a text-based approach. *European Journal of Political Economy*.
 
 ---
 
@@ -112,15 +114,21 @@ Zero-shot learning builds on the generalization power of transformer-based encod
 
 ## 3. Few-Shot Learning
 
-Few-shot learning bridges the gap between traditional supervised learning and zero-shot methods by using **just a few labeled examples** to make accurate predictions on unseen data.
+Few-shot learning (FSL) bridges the gap between traditional supervised learning and zero-shot approaches by leveraging **just a few labeled examples** to make accurate predictions on unseen data. This is particularly valuable when building text-based indicators in low-resource or specialized domains, where labeled data is scarce or costly to obtain.
 
-**Goal**: learn a mapping from support examples to labels that generalizes to new queries — without the need for large labeled datasets.
+Examples include:
+
+- Classifying nuanced *monetary policy* announcements or *economic sanctions*.
+- Interpreting domain-specific texts, such as *clinical reports* or *political news*.
+- Detecting emerging patterns in *fraud* or evolving *hate speech variants*.
+
+**Goal**: to learn a mapping from limited support examples to labels that generalizes effectively to new, unseen queries, without relying on large annotated datasets.
 
 ---
 
 ### 🔧 Method Overview
 
-FewShotX implements a two-stage pipeline:
+[FewShotX](https://github.com/RenatoVassallo/FewShotX) implements a two-stage pipeline:
 
 1. **Training**  
    A **linear model** with L2 regularization is trained on the *support set* (labeled examples). The optimization objective balances prediction error and regularization to prevent overfitting:
@@ -164,7 +172,7 @@ predictions
 
 ### 🧠 Notes
 
-- This method is ideal for economic applications where labeled data is scarce.
+- This method is ideal for applications where labeled data is scarce.
 - Overfitting is common with few examples, so tuning `lambda`, `learning rate`, and `early stopping` is critical.
 - Supports any encoder (e.g. SBERT, OpenAI models, etc.) and can be extended to regression or ranking tasks.
 
