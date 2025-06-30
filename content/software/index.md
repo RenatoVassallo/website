@@ -10,15 +10,15 @@ Designed for fast experimentation in low-data or domain-specific NLP tasks.
 💻 [GitHub](https://github.com/RenatoVassallo/FewShotX)  
 📦 [Download (.whl)](https://github.com/RenatoVassallo/FewShotX/releases)
 
-<!--
 ---
-## 📈 MacroPy  
-*A Bayesian Toolbox for Macroeconometrics in Python*  
-Key features: impulse response functions (IRFs), forecast fan charts, variance decompositions, conditional forecasting, and posterior diagnostics.  
-📘 [Tutorial](https://github.com/RenatoVassallo/MacroPy/blob/main/tutorials/tutorial_cvar.ipynb)  
+## 🐍 MacroPy  
+*A Toolbox for Macroeconometric Analysis in Python*  
+Key features: impulse responses and variance decompositions, conditional forecasting, smooth local projections.  
+📘 [Tutorials](https://github.com/RenatoVassallo/MacroPy/blob/main/tutorials/)  
 💻 [GitHub](https://github.com/RenatoVassallo/MacroPy)  
 📦 [Download (.whl)](https://github.com/RenatoVassallo/MacroPy/releases)
 
+<!--
 ---
 ## ⏱️ MIDAS  
 *A generalized and extensible Python package for MIDAS regressions*  
