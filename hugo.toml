@@ -42,7 +42,7 @@ theme = "PaperMod"
 
   [[menu.main]]
     name = "CV"
-    url = "pdf/cv_jun25.pdf"
+    url = "pdf/cv_aug25.pdf"
     weight = 3
 
   [[menu.main]]

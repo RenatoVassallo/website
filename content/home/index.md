@@ -5,9 +5,9 @@ layout: "home"
 
 I am passionate about applying machine learning and econometrics to understand complex social dynamics and improve policy decisions.
 
-Before transitioning into data science, I worked as a macroeconomic specialist in Peru 🇵🇪, focusing on macro modeling, forecasting and scenario analysis — experience I continue to build on today as an external consultant.
+Before transitioning into data science, I worked as a macroeconomic specialist in Peru 🇵🇪, focusing on macro modeling, forecasting and scenario analysis, experience I continue to build on today as an external consultant.
 
-My work bridges economics, statistical modeling, and AI — with a strong focus on making research reproducible, interpretable, and impactful. I'm also a strong advocate of open-source tools and active knowledge sharing.
+My work bridges economics, statistical modeling, and AI, with a strong focus on making research reproducible, interpretable, and impactful. I'm also a strong advocate of open-source tools and active knowledge sharing.
 
 ---
 
