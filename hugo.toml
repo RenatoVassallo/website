@@ -11,7 +11,7 @@ theme = "PaperMod"
   [params.profileMode]
   enabled = true
   title = "Renato Vassallo"
-  subtitle = """I’m an economist and data scientist at the Institute for Economic Analysis (IAE-CSIC), working at the intersection of AI and economics. My research combines machine learning, natural language processing, and causal inference to build data-driven tools for economic insight and policy design."""
+  subtitle = """I am Economist at the Institute for Economic Analysis (IAE-CSIC) and MRes student in the International Doctorate in Economic Analysis (IDEA) program. My work uses econometrics and machine learning to study economic dynamics and contribute to policy discussions."""
     imageUrl = "images/photo_bse.png"  # relative to /static
     imageTitle = "Renato Vassallo"
     imageWidth = 150
@@ -42,7 +42,7 @@ theme = "PaperMod"
 
   [[menu.main]]
     name = "CV"
-    url = "pdf/cv_aug25.pdf"
+    url = "pdf/cv_feb26.pdf"
     weight = 3
 
   [[menu.main]]
