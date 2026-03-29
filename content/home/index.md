@@ -13,6 +13,7 @@ I care about transparent and reproducible research and enjoy sharing tools and c
 
 ### 📌 Recent Updates
 
+[ (New!) Applied Macroeconometrics 2026 - Workshop ](../../static/pdf/MA_Workshop_2026.pdf)
 - 📄 New working paper: _Semantic Similarity Measures in Newspaper Text for Detecting and Predicting Disruptive Institutional Events_, with L. Mayoral, H. Mueller, C. Rauh, and M. Phillip. [Working Paper](https://drive.google.com/file/d/1uxZmjgEM4E4g5NFa8pjaKpFHbOpP6CUr/view?usp=drivesdk).
 - 🧠 Released a pre-publication version of [MacroPy](https://github.com/RenatoVassallo/MacroPy), a toolbox for macroeconometric analysis in Python. Install via .whl [here](https://github.com/RenatoVassallo/MacroPy/releases).
 - ✍️ New blog post: [Bayesian VARs in Python](../posts/bvar_tutorial/). A step-by-step tutorial on Bayesian VARs, from scratch and with `MacroPy`.
